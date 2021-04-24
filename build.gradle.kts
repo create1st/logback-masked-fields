@@ -16,7 +16,7 @@ repositories {
 val logbackVersion = "1.2.3"
 val assertjVersion = "3.19.0"
 val junitJupiterVersion = "5.7.1"
-val junitPlatformVersion = "1.5.2"
+val junitPlatformVersion = "1.7.1"
 val lombokVersion = "1.18.20"
 
 dependencies {
