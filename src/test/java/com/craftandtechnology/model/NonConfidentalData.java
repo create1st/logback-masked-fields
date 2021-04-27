@@ -1,4 +1,4 @@
-package com.create.model;
+package com.craftandtechnology.model;
 
 import lombok.Builder;
 import lombok.Data;

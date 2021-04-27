@@ -1,8 +1,8 @@
-package com.create.logging;
+package com.craftandtechnology.logging;
 
-import com.create.model.UserData;
+import com.craftandtechnology.model.UserData;
 
-import static com.create.logging.ConfidentialDataFormatter.CONFIDENTIAL_DATA_REGEX;
+import static com.craftandtechnology.logging.ConfidentialDataFormatter.CONFIDENTIAL_DATA_REGEX;
 
 public class UserDataFormatter implements ArgumentFormatter {
     private final PatternArgumentFormatter patternArgumentFormatter = new PatternArgumentFormatter(CONFIDENTIAL_DATA_REGEX);

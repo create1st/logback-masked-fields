@@ -1,6 +1,6 @@
-package com.create.logging;
+package com.craftandtechnology.logging;
 
-import com.create.model.ConfidentialData;
+import com.craftandtechnology.model.ConfidentialData;
 
 public class ConfidentialDataFormatter implements ArgumentFormatter {
     public static final String CONFIDENTIAL_DATA_REGEX = "clientId=([\\w_ ]*)|clientName=([\\w_ ]*)";

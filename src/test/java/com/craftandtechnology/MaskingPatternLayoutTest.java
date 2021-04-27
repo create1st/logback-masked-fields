@@ -1,19 +1,19 @@
-package com.create;
+package com.craftandtechnology;
 
 import ch.qos.logback.classic.Level;
 import ch.qos.logback.classic.Logger;
 import ch.qos.logback.classic.LoggerContext;
 import ch.qos.logback.classic.spi.LoggingEvent;
-import com.create.logging.ConfidentialDataFormatter;
-import com.create.logging.MaskingPatternLayout;
-import com.create.logging.UserDataFormatter;
+import com.craftandtechnology.logging.ConfidentialDataFormatter;
+import com.craftandtechnology.logging.MaskingPatternLayout;
+import com.craftandtechnology.logging.UserDataFormatter;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.lang.reflect.InvocationTargetException;
 
 import static ch.qos.logback.classic.Logger.FQCN;
-import static com.create.model.TestData.userData;
+import static com.craftandtechnology.model.TestData.userData;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 class MaskingPatternLayoutTest {
