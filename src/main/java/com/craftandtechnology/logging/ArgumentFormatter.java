@@ -1,4 +1,4 @@
-package com.create.logging;
+package com.craftandtechnology.logging;
 
 public interface ArgumentFormatter {
     default Class<?> getSupportedClass() {

@@ -1,4 +1,4 @@
-package com.create.logging;
+package com.craftandtechnology.logging;
 
 import ch.qos.logback.classic.PatternLayout;
 import ch.qos.logback.classic.spi.ILoggingEvent;

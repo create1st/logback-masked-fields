@@ -27,13 +27,14 @@ public class UserDataFormatter implements ArgumentFormatter {
 ```
 
 Sample Logback configuration
+
 ```xml
 <configuration>
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
-        <layout class="com.create.logging.MaskingPatternLayout">
+        <layout class="com.craftandtechnology.logging.MaskingPatternLayout">
             <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
-            <argumentFormatter>com.create.logging.ConfidentialDataFormatter</argumentFormatter>
-            <argumentFormatter>com.create.logging.UserDataFormatter</argumentFormatter>
+            <argumentFormatter>com.craftandtechnology.logging.ConfidentialDataFormatter</argumentFormatter>
+            <argumentFormatter>com.craftandtechnology.logging.UserDataFormatter</argumentFormatter>
         </layout>
     </appender>
 

@@ -1,10 +1,11 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
+    id("io.codearte.nexus-staging")  version "0.30.0"
     kotlin("jvm") version "1.4.32"
 }
 
-group = "com.create"
+group = "com.craftandtechnology"
 version = "0.0.1-SNAPSHOT"
 java.sourceCompatibility = JavaVersion.VERSION_11
 
