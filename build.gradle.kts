@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "com.craftandtechnology"
-version = "1.3.0"
+version = "1.4.0-snapshot"
 java.sourceCompatibility = JavaVersion.VERSION_11
 
 repositories {
@@ -98,7 +98,7 @@ publishing {
     repositories {
         maven {
             // change URLs to point to your repos, e.g. http://my.org/repo
-            val releasesRepoUrl = uri("https://s01.oss.sonatype.org/content/repositories/releases")
+            val releasesRepoUrl = uri("https://s01.oss.sonatype.org/service/local/staging/deploy/maven2")
             val snapshotsRepoUrl = uri("https://s01.oss.sonatype.org/content/repositories/snapshots")
             url = if (version.toString().endsWith("SNAPSHOT")) snapshotsRepoUrl else releasesRepoUrl
             credentials {

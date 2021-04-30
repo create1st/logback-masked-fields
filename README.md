@@ -7,6 +7,20 @@
 # logback-masked-fields
 Logback layout to obscure confidential or secure information
 
+Maven
+```xml
+<dependency>
+  <groupId>com.craftandtechnology</groupId>
+  <artifactId>logback-masked-fields</artifactId>
+  <version>1.3.0</version>
+</dependency>
+```
+
+Gradle
+```kotlin
+implementation("com.craftandtechnology:logback-masked-fields:1.3.0")
+```
+
 Each class containing confidential information should have a dedicated formatter defined and this formatter shall be part of the Logback configuration
 
 Sample argument formatter
