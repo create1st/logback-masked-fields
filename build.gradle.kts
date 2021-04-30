@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "com.craftandtechnology"
-version = "1.3.0"
+version = "1.4.0-snapshot"
 java.sourceCompatibility = JavaVersion.VERSION_11
 
 repositories {
