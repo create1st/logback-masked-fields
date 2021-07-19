@@ -15,7 +15,7 @@ repositories {
     jcenter()
 }
 
-val logbackVersion = "1.2.3"
+val logbackVersion = "1.2.4"
 val assertjVersion = "3.19.0"
 val junitJupiterVersion = "5.7.1"
 val junitPlatformVersion = "1.7.1"
